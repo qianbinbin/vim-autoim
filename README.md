@@ -36,6 +36,10 @@ let g:autoim_en = 'com.apple.keylayout.US'
 
 将 `com.apple.keylayout.US` 改为你自己的英文输入法 ID，如 `com.apple.keylayout.ABC`。
 
+#### 允许使用辅助功能
+
+首次使用时，你的终端或 iTerm 等会要求使用辅助功能，允许即可。这是因为插件需要模拟键盘操作。
+
 #### 减小延迟
 
 如果你在退出输入模式时感到延迟，在 `~/.vimrc` 加入：
